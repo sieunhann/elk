@@ -1,5 +1,6 @@
-- pipeline.id: ingest
-  path.config: "/usr/share/logstash/pipeline/ingest.conf"
-
-- pipeline.id: export
-  path.config: "/usr/share/logstash/pipeline/export.conf"
+- pipeline.id: stage1-raw
+  path.config: "/usr/share/logstash/pipeline/stage1_raw.conf"
+- pipeline.id: stage2-intermediate
+  path.config: "/usr/share/logstash/pipeline/stage2_intermediate.conf"
+- pipeline.id: stage3-final
+  path.config: "/usr/share/logstash/pipeline/stage3_final.conf"
