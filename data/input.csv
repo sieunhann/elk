@@ -1,0 +1,16 @@
+id,name,age,level,status,calculate,time_generate
+1,Nguyen Van A,25,5,active,20.0,2026-03-16T10:00:00Z
+1,Nguyen Van A,25,5,active,20.0,2026-03-16T11:00:00Z
+2,Tran Thi B,30,8,active,27.0,2026-03-16T10:00:00Z
+3,Le Van C,22,4,active,17.0,2026-03-16T09:00:00Z
+3,Le Van C,22,4,active,17.0,2026-03-16T10:30:00Z
+4,Pham Van D,45,12,active,40.5,2026-03-16T12:00:00Z
+5,Hoang Van E,19,4,active,15.5,2026-03-16T08:00:00Z
+6,Vu Thi F,35,7,active,28.0,2026-03-16T10:00:00Z
+6,Vu Thi F,35,7,active,28.0,2026-03-16T09:00:00Z
+9,Do Van I,45,8,active,34.5,2026-03-16T10:00:00Z
+11,Ly Van L,33,5,active,24.0,2026-03-16T10:00:00Z
+12,Truong Thi M,21,4,active,16.5,2026-03-16T10:00:00Z
+13,Dinh Van N,40,9,active,33.5,2026-03-16T11:00:00Z
+13,Dinh Van N,40,9,active,33.5,2026-03-16T10:00:00Z
+15,Nguyen Van Test,30,15,active,37.5,2026-03-16T10:00:00Z

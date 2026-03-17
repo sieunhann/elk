@@ -1,0 +1,31 @@
+{
+  "size": 0,
+  "aggs": {
+    "sum_calc": {
+      "sum": {
+        "field": "calculate"
+      }
+    },
+    "sum_level": {
+      "sum": {
+        "field": "level"
+      }
+    },
+    "avg_age_18": {
+      "filter": {
+        "range": {
+          "age": {
+            "gt": 18
+          }
+        }
+      },
+      "aggs": {
+        "avg_level": {
+          "avg": {
+            "field": "level"
+          }
+        }
+      }
+    }
+  }
+}

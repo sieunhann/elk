@@ -1,0 +1,37 @@
+{
+  "size": 0,
+  "aggs": {
+    "global_avg_age_18": {
+      "filter": {
+        "range": {
+          "age": {
+            "gt": 18
+          }
+        }
+      },
+      "aggs": {
+        "avg_level": {
+          "avg": {
+            "field": "level"
+          }
+        }
+      }
+    },
+    "unique_names": {
+      "terms": {
+        "field": "name.keyword",
+        "size": 10000
+      },
+      "aggs": {
+        "latest_record": {
+          "top_hits": {
+            "sort": [
+              { "time_generate": { "order": "desc" } }
+            ],
+            "size": 1
+          }
+        }
+      }
+    }
+  }
+}
